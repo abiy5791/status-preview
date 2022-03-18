@@ -1,0 +1,211 @@
+body {
+  background-color: hsl(233, 47%, 7%);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  background-color: hsl(244, 38%, 16%);
+  width: 78%;
+  height: 445px;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 70px;
+}
+.left {
+  width: 39.5%;
+  position: absolute;
+  border-radius: 10px 0 0 10px;
+  height: 65%;
+  box-sizing: border-box;
+  padding: 40px 40px 40px 70px;
+  color: white;
+}
+.par {
+  width: 90%;
+}
+.par h2 {
+  font-size: 35px;
+  font-family: inter, "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+.par p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: inter, "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  line-height: 25px;
+  font-size: 15px;
+  width: 90%;
+}
+.results {
+  display: flex;
+  width: 95%;
+  flex-direction: row;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 50px;
+  font-size: 20px;
+  justify-content: space-evenly;
+  margin-left: -40px;
+}
+.amount {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  font-weight: bolder;
+}
+.amount span {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  font-weight: normal;
+  color: hsla(0, 0%, 100%, 0.6);
+  text-transform: uppercase;
+}
+img {
+  width: 100%;
+  float: right;
+  border-radius: 0 10px 10px 0;
+  height: 445px;
+  opacity: 0.5;
+}
+.img2 {
+  display: none;
+}
+.right {
+  width: 49%;
+  float: right;
+  border-radius: 0 10px 10px 0;
+  height: 445px;
+  background-color: hsl(277, 64%, 61%);
+}
+@media (max-width: 1254px) and (min-width: 800px) {
+  .card {
+    width: 100%;
+  }
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 445px;
+    padding: 15px;
+  }
+  .par {
+    width: 100%;
+    text-align: center;
+  }
+  .par p {
+    width: 100%;
+  }
+  .results {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 800px) and (min-width: 543px) {
+  .container {
+    display: flex;
+    width: 100%;
+  }
+  .card {
+    width: 75%;
+    height: 100vh;
+  }
+  .right {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: 40%;
+  }
+  .right img {
+    position: relative;
+    border-radius: 10px 10px 0 0;
+    height: 100%;
+  }
+  .left {
+    width: 80%;
+    left: 10%;
+    top: 43%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .par {
+    width: 100%;
+    text-align: center;
+  }
+  .par p {
+    width: 90%;
+    margin: auto;
+  }
+  .results {
+    display: flex;
+    width: 100%;
+    word-spacing: 150px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+  }
+}
+
+@media screen and (max-width: 543px) {
+  .container {
+    display: flex;
+  }
+  .img2 {
+    display: block;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  img {
+    display: none;
+  }
+  .card {
+    width: 90%;
+    height: 800px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  .right {
+    width: 100%;
+    background-size: cover;
+    height: 30%;
+    border-radius: 10px 10px 0 0;
+  }
+  .left {
+    width: 87%;
+    padding: 0;
+  }
+  .par {
+    margin: auto;
+    position: relative;
+    top: 240px;
+  }
+  .par h2 {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+  }
+  .par p {
+    text-align: center;
+    width: 100%;
+  }
+  .results {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    margin: auto;
+    position: relative;
+    top: 250px;
+    text-align: center;
+  }
+  .amount {
+    flex-direction: row;
+  }
+}

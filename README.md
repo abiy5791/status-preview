@@ -1,33 +1,35 @@
 This is a solution to the status preview card component
 
-## Overview 
+## Overview
 
-was a good challenge 
+was a good challenge
 
-## The challenge  
-i had no clue on how to make the image and the text responsive at the same time 
+## The challenge
+
+i had no clue on how to make the image and the text responsive at the same time
+
 ## Screenshot
+
 ![ScreenShot](Screenshot.jpg)
 
+##Live Site URL
 
-##Live Site URL 
+Website https://abiy5791.github.io/status-preview/
 
-Website https://alazarg19.github.io/status-preview-card-component/
+##My process
 
+i started from the html and went on up from there everything was going smooth
 
-##My process 
+## Built with
 
-i started from the html and went on up from there everything was going smooth 
+html and css
 
-## Built with  
+flexbox
 
-html and css 
+##What i learned
 
-flexbox 
+## Author
 
-##What i learned   
+Website https://abiy5791.github.io/status-preview/ @AlazarG19
 
-## Author 
-Website https://alazarg19.github.io/status-preview-card-component/  @AlazarG19 
-
-## Acknowledgments 
+## Acknowledgments

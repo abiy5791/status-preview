@@ -29,7 +29,4 @@ flexbox
 ##What i learned
 
 ## Author
-
-Website https://abiy5791.github.io/status-preview/ @AlazarG19
-
-## Acknowledgments
+Abiy Teklu

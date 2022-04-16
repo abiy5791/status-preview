@@ -1,5 +1,5 @@
 This is a solution to the status preview card component
-
+## Live site https://abiy5791.github.io/status-preview/
 ## Overview
 
 was a good challenge
